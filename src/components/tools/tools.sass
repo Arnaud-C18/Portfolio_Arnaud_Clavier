@@ -1,0 +1,44 @@
+.tools
+    display: flex
+    align-items: center
+    flex-direction: column
+    width: 80%
+    margin: 0px auto 50px auto
+
+    .toolsTitle
+        color: #FE2E2E
+        margin-top: 50px
+
+    ul
+        display: flex
+        justify-content: center
+        flex-flow: row wrap
+        margin-top: 30px
+        padding: 10px 0px 10px 0px
+        border-radius: 15px
+        background-color: #F78181
+
+        li
+            font-size: 15px
+            flex-wrap: nowrap
+            padding: 10px
+            margin: 4px
+            border-radius: 25px
+            background-color: white
+            border: solid 3px #D8D8D8
+            opacity: 0
+            transition: opacity 5s ease
+
+        .toolsActive
+            opacity: 1
+
+
+@media screen and ( min-width: 680px )
+    .tools
+        width: 40%
+
+        ul
+            padding: 15px 0px 15px 0px
+
+        span
+            margin-top: 0px

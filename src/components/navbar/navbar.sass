@@ -1,0 +1,94 @@
+nav
+    position: sticky
+    top: 0px
+    height: 50px
+    width: 100%
+    background-color: white
+    display: flex
+    justify-content: space-between
+    align-items: center
+    border-bottom: solid 2px #D8D8D8
+
+    .logo
+        border-radius: 25px
+        color: black
+        margin-left: 20px
+
+        .name
+            font-family: 'Josefin Slab', serif
+            font-weight: 700
+            font-size: 35px
+            margin: 5px 0px 0px 8px
+    
+    .link
+
+        .bigScreenNav
+            display: none
+            justify-content: flex-end
+
+            li
+                font-weight: 500
+                margin: 0px 10px 0px 0px
+                cursor: pointer
+                border-radius: 50px
+                font-size: 17px
+
+                a
+                    color: black
+                    padding: 10px
+                    border-radius: 5px
+
+                    &:hover
+                        color: white
+                        background-color: #424242
+                        
+
+        i 
+            font-size: 25px
+            margin-right: 20px
+            cursor: pointer
+            padding: 10px
+
+        .dropdownMenu
+            position: absolute
+            top: 55px
+            right: 13px
+            border-radius: 10px
+            border: solid 2px #A4A4A4
+            background-color: white
+
+            &:before
+                content: ''
+                position: absolute
+                top: -10px
+                right: 17px
+                width: 15px
+                height: 15px
+                background-color: white
+                transform: rotate(45deg)
+                border-left: solid 2px #A4A4A4
+                border-top: solid 2px #A4A4A4
+
+            .smallScreenNav
+                display: flex
+                flex-direction: column
+                
+                a
+                    color: black
+                    display: block
+                    padding: 5px
+                    margin: 10px
+
+
+@media screen and ( min-width: 680px  )
+    nav
+        .logo
+            margin-left: 20px
+
+        .link
+            i 
+                display: none
+
+            .bigScreenNav
+                display: flex
+                

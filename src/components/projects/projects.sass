@@ -1,0 +1,172 @@
+.projectsDiv
+    display: flex
+    flex-direction: column
+    width: 90%
+    margin: 0px auto 0px auto
+    padding-top: 70px
+    align-items: center
+
+    .projectsTitle
+        color: #81BEF7
+        padding: 10px
+
+    .projectsList
+        display: flex
+        flex-flow: wrap
+        justify-content: space-between
+        width: 100%
+
+        .projectCard
+            display: flex
+            flex-direction: column
+            width: 100%
+            border: solid 5px #F2F2F2
+            margin: 60px 0px 0px 0px
+            border-radius: 10px
+            box-shadow: 5px 10px 20px #BDBDBD
+            cursor: pointer
+
+            img
+                width: 100%
+                object-fit: cover
+                border-radius: 10px 10px 0px 0px
+
+            .projectInfo
+                margin: 15px 15px 5px 15px
+                font-size: 15px
+                color: black
+
+                p
+                    margin-top: 5px
+                    font-size: 14px
+
+        .modalBackground
+            width: 100vw
+            height: 100vh
+            top: 0
+            left: 0
+            right: 0
+            bottom: 0
+            position: fixed
+            background: rgba(0,0,0,0.2)
+            display: flex
+            justify-content: center
+            align-items: center
+            cursor: pointer
+
+            .modal
+                display: flex
+                flex-direction: column
+                justify-content: end
+                width: 80%
+                height: 90vh
+                background: white top / cover no-repeat
+                border-radius: 15px
+                border: solid white
+                border-width: 20px 20px 40px 20px
+                cursor: auto
+
+                .fa-xmark
+                    display: flex
+                    align-items: center
+                    justify-content: center
+                    position: absolute
+                    top: 7%
+                    right: 12%
+                    background-color: black
+                    color: white
+                    font-size: 45px
+                    width: 60px
+                    height: 60px
+                    border-radius: 10px
+                    cursor: pointer
+
+                .modalInfo
+                    display: flex
+                    flex-direction: column
+                    padding: 10px
+                    background-color: #E6E6E6
+                    border-radius: 20px
+                    position: relative
+                    top: 20px
+
+
+                    .modalTitle
+                        font-size: 20px
+                        font-weight: 700
+
+                    .modalDescription
+                        font-size: 18px
+                        margin-top: 10px 
+
+                    .links
+                        display: flex
+                        flex-direction: column
+                        align-items: center
+
+                        a
+                            display: flex
+                            justify-content: center
+                            padding: 8px
+                            border-radius: 20px
+                            font-size: 14px
+                            color: white
+
+                            i
+                                margin-left: 10px
+
+                        .pageLink
+                            background-color: #FE2E2E
+                            margin-top: 15px
+
+                        .codeLink
+                            background-color: #2E64FE
+                            margin-top: 10px
+
+
+
+@media screen and ( min-width: 680px  )
+    .projectsDiv
+        .projectsList
+            .projectCard
+                width: 45%
+
+                .projectInfo
+                    font-size: 18px
+
+                    p
+                        margin-top: 5px
+                        font-size: 16px
+
+            .modalBackground
+                .modal
+                    width: 70%
+
+                    .fa-xmark
+                        right: 17%
+
+                    .modalInfo
+                        padding: 20px
+                    
+                        .modalTitle
+                            font-size: 25px
+                        
+                        .modalDescription
+                            font-size: 22px
+                            margin-top: 3%
+                        
+                        .links
+                            flex-direction: row
+                            justify-content: space-around
+                            margin-top: 2%
+
+                            a
+                                padding: 10px
+                                font-size: 20px
+                                
+                            .pageLink
+                                background-color: #FE2E2E
+    
+                            .codeLink
+                                background-color: #2E64FE
+                                margin-top: 10px
