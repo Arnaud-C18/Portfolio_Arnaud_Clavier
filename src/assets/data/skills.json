@@ -1,0 +1,37 @@
+[
+    {
+      "id": 1,
+      "name": "HTML",
+      "logo": "fa-brands fa-html5",
+      "level": "95%",
+      "color": "#F16324"
+    },
+    {
+      "id": 2,
+      "name": "CSS",
+      "logo": "fa-brands fa-css3-alt",
+      "level": "95%",
+      "color": "#2465F1"
+    },
+    {
+      "id": 3,
+      "name": "Sass",
+      "logo": "fa-brands fa-sass",
+      "level": "90%",
+      "color": "#CE679A"
+    },
+    {
+      "id": 4,
+      "name": "JS",
+      "logo": "fa-brands fa-square-js",
+      "level": "80%",
+      "color": "#E4A126"
+    },
+    {
+      "id": 5,
+      "name": "React",
+      "logo": "fa-brands fa-react",
+      "level": "80%",
+      "color": "#61DBFB"
+    }
+  ]

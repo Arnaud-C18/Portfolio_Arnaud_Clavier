@@ -14,29 +14,35 @@ a
 
 body
     font-family: 'Comfortaa', sans-serif
+    margin: 0px
+    padding: 0px
+
+    nav
+        position: sticky
+        top: 0
 
     main
         max-width: 1400px
         margin: 0px auto 0px auto
 
         .skillsAndTools
-            height: 800px
-            padding-top: 100px
+            height: 750px
+            padding-top: 70px
             width: 100%
             display: flex
             flex-direction: column
             align-items: center
             justify-content: space-between
 
-@media screen and ( min-width: 680px  )
+@media screen and ( min-width: 700px  )
     h2
         font-size: 32px
     body
         main
             .skillsAndTools
                 flex-direction: row
-                height: 400px
+                height: 450px
                 width: 90%
                 margin: 0px auto 0px auto
-                padding-top: 150px
+                padding-top: 15vh
                 justify-content: space-around

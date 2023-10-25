@@ -1,14 +1,25 @@
-import React, { useState } from 'react';
+import {React, useState, useEffect, useRef}from 'react';
 import './navbar.sass';
 
 export default function Navbar() {
 
   const [openNav, setOpenNav] = useState(false);
 
+  
+  const navRef = useRef();
+
+  useEffect(() => {
+    const timeout = setTimeout(() => {
+      navRef.current.classList.add("navActive");
+    }, 200);
+
+    return () => clearTimeout(timeout);
+  }, []);
+
   return (
-    <nav>
+    <div className='navBar' ref={navRef}>
       <div className='logo'>
-        <h1 className='name'>Arnaud-C18</h1>
+        <h1 className='name'><span className='partOne'>Arnaud</span><span className='partTwo'>-C18</span></h1>
       </div>
       <div className='link'>
         <i className="fa-solid fa-bars" onClick={() => setOpenNav(!openNav) }></i>
@@ -30,6 +41,6 @@ export default function Navbar() {
           </div>
         }
       </div>
-    </nav>
+    </div>
   );
 };

@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "VScode"
+    },
+    {
+        "id": 2,
+        "name": "Git"
+    },
+    {
+        "id": 3,
+        "name": "Github"
+    },
+    {
+        "id": 4,
+        "name": "Figma"
+    },
+    {
+        "id": 5,
+        "name": "Npm"
+    },
+    {
+        "id": 6,
+        "name": "Yarn"
+    },
+    {
+        "id": 7,
+        "name": "ThunderClient"
+    },
+    {
+        "id": 8,
+        "name": "ChatGPT"
+    },
+    {
+        "id": 9,
+        "name": "ViteJS"
+    },
+    {
+        "id": 10,
+        "name": "NextJS"
+    },
+    {
+        "id": 11,
+        "name": "LightHouse"
+    },
+    {
+        "id": 12,
+        "name": "Wave"
+    }
+  ]

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './projects.sass';
-import data from '../../assets/data/data.json';
+import data from '../../assets/data/projects.json';
 
 export default function ProjectsList() {
 

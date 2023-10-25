@@ -1,9 +1,10 @@
-import { React, useEffect, useRef} from 'react';
+import { React, useEffect, useRef } from 'react';
 import './tools.sass';
+import tools from "../../assets/data/tools.json"
 
 export default function Tools() {
 
-  const toolsRef = useRef()
+  /*const toolsRef = useRef()
 
   useEffect(() => {
     const observer = new IntersectionObserver(entries => {
@@ -13,22 +14,17 @@ export default function Tools() {
         observer.unobserve(toolsRef.current)
       }
     })
-    observer.observe(toolsRef.current);//test
+    observer.observe(toolsRef.current);
 
-  }, [])
+  }, [])*/
 
   return (
-    <div className='tools' ref={toolsRef}>
+    <div className='tools'>
       <h2 className='toolsTitle'>Outils utilisés</h2>
       <ul>
-        <li className='tool 1'>VScode</li>
-        <li className='tool 2'>Git</li>
-        <li className='tool 3'>Github</li>
-        <li className='tool 4'>Figma</li>
-        <li className='tool 5'>Npm</li>
-        <li className='tool 6'>Yarn</li>
-        <li className='tool 7'>ThunderClient</li>
-        <li className='tool 8'>ChatGPT</li>
+        {tools.map((tool, index) => (
+          <li key={tool.id} /*ref={skillsRefs[index]}*/>{tool.name}</li>
+        ))}
       </ul>
     </div>
   );

@@ -3,11 +3,11 @@
     flex-direction: column
     width: 90%
     margin: 0px auto 0px auto
-    padding-top: 70px
+    padding-top: 40px
     align-items: center
 
     .projectsTitle
-        color: #81BEF7
+        color: #2E9AFE
         padding: 10px
 
     .projectsList
@@ -21,10 +21,11 @@
             flex-direction: column
             width: 100%
             border: solid 5px #F2F2F2
-            margin: 60px 0px 0px 0px
+            margin: 15px 0px 10px 0px
             border-radius: 10px
             box-shadow: 5px 10px 20px #BDBDBD
             cursor: pointer
+            background-color: white
 
             img
                 width: 100%
@@ -59,7 +60,7 @@
                 flex-direction: column
                 justify-content: end
                 width: 80%
-                height: 90vh
+                height: 80vh
                 background: white top / cover no-repeat
                 border-radius: 15px
                 border: solid white
@@ -71,13 +72,13 @@
                     align-items: center
                     justify-content: center
                     position: absolute
-                    top: 7%
-                    right: 12%
+                    top: 8%
+                    right: 9%
                     background-color: black
                     color: white
                     font-size: 45px
-                    width: 60px
-                    height: 60px
+                    width: 50px
+                    height: 50px
                     border-radius: 10px
                     cursor: pointer
 
@@ -85,7 +86,7 @@
                     display: flex
                     flex-direction: column
                     padding: 10px
-                    background-color: #E6E6E6
+                    background-color: #FCF4D7
                     border-radius: 20px
                     position: relative
                     top: 20px
@@ -116,20 +117,23 @@
                                 margin-left: 10px
 
                         .pageLink
-                            background-color: #FE2E2E
+                            background-color: #FA5858
                             margin-top: 15px
 
                         .codeLink
-                            background-color: #2E64FE
+                            background-color: #5882FA
                             margin-top: 10px
 
 
 
-@media screen and ( min-width: 680px  )
+@media screen and ( min-width: 700px  )
     .projectsDiv
+        padding-top: 120px
+
         .projectsList
             .projectCard
                 width: 45%
+                margin: 30px 0px 20px 0px
 
                 .projectInfo
                     font-size: 18px
@@ -143,7 +147,9 @@
                     width: 70%
 
                     .fa-xmark
-                        right: 17%
+                        right: 15%
+                        width: 60px
+                        height: 60px
 
                     .modalInfo
                         padding: 20px
@@ -163,10 +169,3 @@
                             a
                                 padding: 10px
                                 font-size: 20px
-                                
-                            .pageLink
-                                background-color: #FE2E2E
-    
-                            .codeLink
-                                background-color: #2E64FE
-                                margin-top: 10px
