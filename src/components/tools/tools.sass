@@ -17,7 +17,38 @@
         padding: 10px 0px 10px 0px
         border-radius: 15px
         background-color: #F78181
+
         li
+            font-size: 15px
+            flex-wrap: nowrap
+            padding: 10px
+            margin: 4px
+            border-radius: 25px
+            background-color: white
+            border: solid 3px #D8D8D8
+            opacity: 0
+
+        .tile 
+            animation: .9s fade-in
+            opacity: 1
+
+        @for $i from 1 through 12 
+            li
+                &:nth-child(#{$i}) 
+                    animation-delay: 1s + $i * (.08s)
+                    transition-delay: 1.9s + $i * (.08s)
+    
+
+        @keyframes fade-in 
+            0% 
+                opacity: 0
+                transform: scale(0)
+
+            100% 
+                opacity: 1
+                transform: scale(1)
+
+        /*li
             font-size: 15px
             flex-wrap: nowrap
             padding: 10px
@@ -27,7 +58,7 @@
             border: solid 3px #D8D8D8
             opacity: 1
             transition: opacity 5s ease
-        .toolsActive
+        /*.toolsActive
             opacity: 1
 
 @media screen and ( min-width: 700px )

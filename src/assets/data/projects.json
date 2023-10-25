@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "Portfolio Sophie Bluel",
-    "image": "src/assets/images/Portfolio_Sophie_Bluel.webp",
+    "image": "/assets/images/Portfolio_Sophie_Bluel.webp",
     "shortDescription": "Portfolio pour l'architecte d'intérieur Sophie Bluel",
     "longDescription": "Réalisation d'un portfolio pour l'architecte d'intérieur Sophie Bluel, avec fonction de login permettant l'ajout de contenu et fonction de tri des projets à afficher. Codé avec HTML, CSS et javascript.",
     "codeLink": "https://github.com/Arnaud-C18/Portfolio-Sophie-Bluel",
@@ -11,7 +11,7 @@
   {
     "id": 2,
     "title": "Site Kasa",
-    "image": "src/assets/images/Site_Kasa.webp",
+    "image": "/assets/images/Site_Kasa.webp",
     "shortDescription": "Site de locations immobilière",
     "longDescription": "Réalisation d'un site pour l'entreprise de location immobilière Kasa avec au total 4 pages (Acceuil, A propos, Produits, Erreur 404). Optimisation de l'affichage via la réutilisation de composants React.",
     "codeLink": "https://github.com/Arnaud-C18/Kasa",
@@ -20,7 +20,7 @@
   {
     "id": 3,
     "title": "Portfolio Nina Carducci",
-    "image": "src/assets/images/Portfolio_Nina_Carducci.webp",
+    "image": "/assets/images/Portfolio_Nina_Carducci.webp",
     "shortDescription": "Portfolio de la photographe Nina Carducci",
     "longDescription": "Optimisation avec rapport complet d'intervention du portfolio de la photographe Nina Carducci comportant entre autre la redimensions et l'otpimisation d'images ainsi que le réarengement du code. Gains notables de performances à l'affichage ",
     "codeLink": "https://github.com/Arnaud-C18/PortFolio-Nina-Carducci",
@@ -29,7 +29,7 @@
   {
     "id": 4,
     "title": "Page d'acceuil Booki",
-    "image": "src/assets/images/Site_Booki.webp",
+    "image": "/assets/images/Site_Booki.webp",
     "shortDescription": "Page d'acceuil de l'agence de voyage Booki",
     "longDescription": "Réalisation d'une page d'acceuil prototype pour l'agence de voyage Booki, construite en HTML et CSS à partir d'une maquette.",
     "codeLink": "https://github.com/Arnaud-C18/Booki",
