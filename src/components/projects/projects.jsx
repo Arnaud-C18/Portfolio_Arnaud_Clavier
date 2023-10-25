@@ -28,7 +28,6 @@ export default function ProjectsList() {
           <div className='modalBackground' onClick={()=>setModal(false)}>
             <div className='modal' onClick={stopPropagation} style={{ backgroundImage: `url(${modal.image})` }}>
               <i className="fa-solid fa-xmark" onClick={()=>setModal(false)}></i>
-              {/*<img src={modal.image} alt={modal.title} />*/}
               <div className='modalInfo'>
                 <p className='modalTitle'>{modal.title}</p>
                 <p className='modalDescription'>{modal.longDescription}</p>
