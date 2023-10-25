@@ -1,6 +1,6 @@
 import { React, useEffect, useRef } from 'react';
 import './skills.sass';
-import skills from "../../assets/data/skills.json"
+import skills from "../../../public/assets/data/skills.json"
 
 export default function Skills() {
     const skillsRefs = skills.map(() => useRef());

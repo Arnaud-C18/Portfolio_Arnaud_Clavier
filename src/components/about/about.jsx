@@ -1,6 +1,6 @@
 import {React, useEffect, useRef} from 'react';
 import './about.sass';
-import portrait from "../../assets/images/portrait.webp"
+import portrait from "../../../public/assets/images/portrait.webp"
 
 
 export default function About() {

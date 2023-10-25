@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import './projects.sass';
-import data from '../../assets/data/projects.json';
-
+import data from '../../../public/assets/data/projects.json';
 export default function ProjectsList() {
 
   const [modal, setModal] = useState(false);

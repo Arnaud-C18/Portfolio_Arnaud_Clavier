@@ -41,7 +41,7 @@ export default function Tools() {
 
 import { React, useEffect, useRef } from 'react';
 import './tools.sass';
-import tools from "../../assets/data/tools.json"
+import tools from "../../../public/assets/data/tools.json"
 
 export default function Tools() {
 
