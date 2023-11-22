@@ -19,7 +19,7 @@ export default function Navbar() {
   return (
     <div className='navBar' ref={navRef}>
       <div className='logo'>
-        <h1 className='name'><span className='partOne'>Arnaud</span><span className='partTwo'>-C18</span></h1>
+        <h1 className='name'><span className='partOne'>Arnaud</span><span className='partTwo'>-</span><span className='partThree'>C18</span></h1>
       </div>
       <div className='link'>
         <i className="fa-solid fa-bars" onClick={() => setOpenNav(!openNav) }></i>
